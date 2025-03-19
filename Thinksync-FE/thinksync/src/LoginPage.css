@@ -1,0 +1,133 @@
+/* Center the modal */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  /* Standing rectangle shape */
+  .modal-container {
+    background: linear-gradient(135deg, #4A90E2, #6EC6FF);
+    padding: 2rem;
+    border-radius: 12px;
+    width: 350px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* ThinkSync branding */
+  .brighter-theme {
+    background: linear-gradient(135deg, #5A67D8, #9F7AEA);
+  }
+  
+  /* Title */
+  .modal-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Input fields */
+  .modal-input-wrapper,
+  .modal-password-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 10px 0;
+  }
+  
+  .modal-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s ease-in-out;
+  }
+  
+  /* Ensuring equal sizes */
+  .equal-size-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2rem;
+  }
+  
+  /* Password input section */
+  .password-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .password-input {
+    width: 100%;
+    padding-right: 40px;
+  }
+  
+  /* Password toggle eye icon */
+  .password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  
+  /* Login button */
+  .modal-button {
+    background: #FF6B6B;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .modal-button:hover {
+    background: #FF4757;
+  }
+  
+  /* ThinkSync Animation */
+  .login-graphic {
+    margin-bottom: 20px;
+  }
+  
+  .sync-animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sync-icon {
+    width: 80px;
+    height: 80px;
+    animation: bounce 1.5s infinite ease-in-out;
+  }
+  
+  /* Keyframe for bounce animation */
+  @keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+  }
+  
