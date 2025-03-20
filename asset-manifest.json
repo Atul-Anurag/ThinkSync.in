@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ThinkSync.in/static/css/main.0a27745d.css",
+    "main.js": "/ThinkSync.in/static/js/main.00d82f53.js",
+    "static/js/453.c4a18423.chunk.js": "/ThinkSync.in/static/js/453.c4a18423.chunk.js",
+    "static/media/notebook.svg": "/ThinkSync.in/static/media/notebook.888c32f439a2c4e99a2eeecd3a61e73e.svg",
+    "index.html": "/ThinkSync.in/index.html",
+    "main.0a27745d.css.map": "/ThinkSync.in/static/css/main.0a27745d.css.map",
+    "main.00d82f53.js.map": "/ThinkSync.in/static/js/main.00d82f53.js.map",
+    "453.c4a18423.chunk.js.map": "/ThinkSync.in/static/js/453.c4a18423.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a27745d.css",
+    "static/js/main.00d82f53.js"
+  ]
+}
